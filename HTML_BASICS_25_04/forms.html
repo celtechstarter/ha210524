@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Jetzt schauen wir uns an, wie Forms in HTML funktionieren!</h1>
+
+    <!-- Vorname und Nachname + Rahmen (fieldset) -->
+    <form>
+      <fieldset>
+        <legend>Personal Information:</legend>
+        <label for="firstname">Vorname:</label>
+        <input id="firstname" type="text" value="John" readonly />
+        <!-- value = den namen in der Textzeile vorgben -->
+        <!-- readonly bedeutet, man kan nur lesen und nichts in dem Feld reinschreiben -->
+        <br /><br />
+
+        <label for="lastname">Nachname:</label>
+        <input id="lastname" type="text" disabled />
+        <!-- der befehl disabled wird ausgeblendet und man kann das Feld nicht mehr anklicken. -->
+        <br /><br />
+
+        <!-- Email -->
+        <label for="email">E-Mail:</label>
+        <input id="email" type="email" placeholder="max@mustermann.de" />
+        <br /><br />
+
+        <!-- PASSWORD -->
+        <label for="password">Passwort*:</label>
+        <input
+          id="password"
+          type="password"
+          size="40"
+          placeholder="password"
+          required
+        />
+        <!-- size = in dem Beispiel 40 zeichen für das passwort -->
+        <br /><br />
+
+        <!-- DATUM -->
+        <label>Datum</label><br />
+        <input type="date" /><br /><br />
+
+        <!-- Frage auswählbar (radio) -->
+        <label>Magst du Pizza</label>
+        <br />
+        <label>Ja</label>
+        <input name="pizza" type="radio" />
+        <label>Nein</label>
+        <input name="pizza" type="radio" />
+        <br /><br />
+
+        <!-- Frage anklickbar -->
+        <label>Hobbies</label><br />
+        <label>Basketball Spielen</label>
+        <input type="checkbox" value="Basketball Spielen" /><br /><br />
+
+        <label>Fahrrad fahren</label>
+        <input type="checkbox" value="Basketball Spielen" /><br /><br />
+        <input type="submit" />
+
+        <!--  -->
+        <select name="" id="">
+          <option value="">Hund</option>
+          <option value="">Katze</option>
+          <option value="">Schlange</option></select
+        ><br /><br />
+
+        <!-- TEXT AREA -->
+        <!-- maxlength = mindestanzahl von Zeichen, die ich in die Text-Area eingeben kann -->
+        <!-- placeholder (beschreibt wieviele Zeichen ich in diese Box reinschreiben kann) -->
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          maxlength="50"
+          placeholder="50 Zeichen"
+        ></textarea>
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

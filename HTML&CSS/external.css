@@ -1,0 +1,32 @@
+h1{
+    color: brown;
+    font-size: 80px;
+    border: 10px black solid ;
+    padding-top: 100px;
+
+
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+}
+
+
+/* mit der # Raute Taste können wir IDs ansprechen */
+#middle {
+    color: chartreuse;
+    font-size: 66px;
+    margin-top: 60;
+}
+
+#top {
+    color: cyan;
+}
+
+
+/* mit . punkt können wir klassen/class ansprechen */
+.abc {
+    color: darkorange;
+}
+

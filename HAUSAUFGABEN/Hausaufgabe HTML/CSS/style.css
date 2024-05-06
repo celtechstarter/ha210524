@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e9f9f;
+}
+
+
+h1 {
+    text-align: center;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 3vw;
+    
+    span {
+      display: inline-block;
+      position: relative;
+      color: #fff;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        top: -.1em;
+        left: -.25em;
+        right: -.25em;
+        bottom: -.1em;
+        background-color: #ff266e;
+        z-index: -1;
+        transform: skewY(-1deg)
+      }
+    }
+  }
+
+
+header:hover {
+    color: blue;
+}
+
+section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+
+}

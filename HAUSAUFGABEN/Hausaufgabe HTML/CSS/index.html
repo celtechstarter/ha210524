@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kreatives Chaos</title>
+</head>
+<body>
+    
+    <h2>Willkommen auf meiner bunten Chaos-Seite</h2>
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/0nF7bnc/marcel.gif" alt="marcel" border="0"></a>
+    <header>
+        <h1>
+            Ein kleiner Steckbrief von
+            <span>Marcel Welk</span>
+          </h1>
+    </header>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #07ef60;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #00ef7c;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Über mich:</h2>
+        
+        <table>
+          <tr>
+            <th>Profil</th>
+            <th>Daten</th>
+            <th>Extras</th>
+          </tr>
+          <tr>
+            <td>Name:</td>
+            <td>Marcel Welk</td>
+            <td>Geboren in Dortmund</td>
+          </tr>
+          <tr>
+            <td>Alter:</td>
+            <td>37 Jahre</td>
+            <td>10.03.1987</td>
+          </tr>
+          <tr>
+            <td>Herkunft:</td>
+            <td>Deutschland</td>
+            <td>Dortmund </td>
+          </tr>
+          <tr>
+            <td>Skills:</td>
+            <td>Krasse HTML/CSS Skills</td>
+            <td>Schwerpunkt:Design</td>
+          </tr>
+          <tr>
+            <td>Job:</td>
+            <td>Techstarter Student</td>
+            <td>Bereich:Cloud Computing</td>
+          </tr>
+          <tr>
+            <td>Zertifikate:</td>
+            <td>Linux Essentials</td>
+            <td>Bestanden</td>
+          </tr>
+        </table>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .gif-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="toggleGif()">Mein Leckeres Koch Rezept!(Klick mich!)</button>
+    <div class="gif-container" id="gifContainer"></div>
+
+    <script>
+        function toggleGif() {
+            var gifContainer = document.getElementById("gifContainer");
+            if (gifContainer.innerHTML === "") {
+                
+                gifContainer.innerHTML = '<img src="https://i.pinimg.com/originals/9b/bb/28/9bbb28fecad2a29b4ebdc1ddbecbb6e6.gif">';
+                gifContainer.style.display = "block";
+            } else {
+                
+                gifContainer.innerHTML = "";
+                gifContainer.style.display = "none";
+            }
+        }
+    </script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontodaten</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontodaten</title>
+    <style>
+        /* Hier können weitere CSS-Stile hinzugefügt werden */
+        .container {
+            text-align: center;
+            margin-top: 50px; /* Abstand nach oben */
+        }
+
+        form {
+            display: inline-block;
+            text-align: left; /* Links ausrichten */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <form>
+            <label for="vorname">Vor- Nachname:</label>
+            <input type="text" id="vorname" name="vorname"><br>
+            <label for="nachname">Geldbetrag in €:</label>
+            <input type="text" id="nachname" name="nachname"><br>
+            <label for="kontonummer">Kontonummer:</label>
+            <input type="text" id="kontonummer" name="kontonummer"><br>
+            <label for="blz">Bankleitzahl:</label>
+            <input type="text" id="blz" name="blz"><br>
+            <input type="submit" value="Absenden">
+        </form>
+    </div>
+</body>
+</html>

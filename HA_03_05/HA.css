@@ -1,0 +1,26 @@
+/* Aufgabe 2 */
+
+/* Mein div container + Bild + Ein/Ausblenden */
+#T1Container {
+  display: block;
+}
+
+#image {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Aufgabe 3 */
+
+#T2container {
+  width: 200px;
+  height: 200px;
+}
+
+#image2 {
+  max-width: 100%;
+  max-height: 100%;
+}

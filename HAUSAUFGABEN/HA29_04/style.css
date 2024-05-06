@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  padding: 20;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+/* Meine Ausrichtung der Spalten */
+.column {
+  flex: 3;
+  padding: 50px;
+  text-align: center;
+  font-family: "Bebas Neue";
+}
+
+/* Meine Navigationsbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Hier kann ich über meine Nav Bar hovern und dann ändert sich die Farbe */
+.navbar a:hover {
+  background-color: #0b25b7;
+  color: rgb(233, 43, 43);
+}
+
+/* Mein Container, der die Navigationsbar Mittit Zentriert */
+.container {
+  text-align: center;
+  color: rgb(8, 8, 8);
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
