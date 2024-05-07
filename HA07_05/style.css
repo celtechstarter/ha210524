@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(232, 193, 19);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #9e0e0e8d;
+}
+
+p {
+  color: #475456;
+}
+
+input[type="nummer"] {
+  width: 30%;
+  padding: auto;
+  margin-bottom: auto;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fb0f75;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#Ergebnis {
+  font-weight: bold;
+  margin-top: 10px;
+}
