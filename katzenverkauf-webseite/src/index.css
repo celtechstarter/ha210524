@@ -1,0 +1,14 @@
+.katzenbild {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin: 10px;
+}
+
+body {
+  background-color: #ff69b4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
